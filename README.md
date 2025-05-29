@@ -85,7 +85,7 @@ Kami menggunakan dataset penyakit kulit dari Kaggle yang mencakup berbagai jenis
 
 ## 🎨 UI/UX Design
 
-- 🎨 Hi-Fi Design: _[Link Figma jika tersedia]_
+- 🎨 Hi-Fi Design: _[[Figma](https://www.figma.com/design/4U1bFNDwepMgMrfQ33DJul/WEB-AI?node-id=0-1&p=f&t=tObl6fZH8hAk743l-0)]_
 - 🎮 Demo Prototype: _[Link ke figma prototipe atau demo aplikasi]_
 
 ---
@@ -99,6 +99,6 @@ Kami menggunakan dataset penyakit kulit dari Kaggle yang mencakup berbagai jenis
 
 ## 📌 License
 
-This project is created as part of the Bangkit 2024 Capstone Project. All rights reserved by the team.
+This project is created as part of the Laskar AI Capstone Project. All rights reserved by the team.
 
 ---
