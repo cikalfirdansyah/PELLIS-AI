@@ -23,7 +23,7 @@ Pellis-AI adalah aplikasi yang memanfaatkan teknologi **Artificial Intelligence 
 
 | Name | Advisor ID | Expertise | Email |
 |------|------------|-----------|-------|
-| [Nama Advisor] | [ID] | [Bidang keahlian] | [Email] |
+| [Iga Narendra Pramawijaya] | [LA25 - AD045] | [Machine Learning] | [iga.narendra@gmail.com] |
 | [Nama Advisor] | [ID] | [Bidang keahlian] | [Email] |
 
 
@@ -76,10 +76,10 @@ _Endpoint atau dokumentasi API akan disediakan di sini jika tersedia (gunakan Po
 
 Kami menggunakan dataset penyakit kulit dari Kaggle yang mencakup berbagai jenis penyakit umum yang dapat dideteksi melalui citra visual.
 
-- Dataset utama: _[Link to Kaggle Dataset (jika publik)]_
+- Dataset utama: _[[kaggle](https://www.kaggle.com/datasets/mgmitesh/skin-disease-detection-dataset)]_
 - Sumber: Kaggle / Open Source
-- Jumlah kelas: [Jumlah kategori penyakit]
-- Jumlah data: [Total gambar/data]
+- Jumlah kelas: [15 Kategori Penyakit]
+- Jumlah data: [48.2k Files]
 
 ---
 
