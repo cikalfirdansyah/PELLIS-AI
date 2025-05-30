@@ -23,7 +23,7 @@ Pellis-AI adalah aplikasi yang memanfaatkan teknologi **Artificial Intelligence 
 
 | Name | Advisor ID | Expertise | Email |
 |------|------------|-----------|-------|
-| [Iga Narendra Pramawijaya] | [LA25 - AD045] | [Machine Learning] | [iga.narendra@gmail.com] |
+| Iga Narendra Pramawijaya | LA25 - AD045 | Machine Learning | iga.narendra@gmail.com |
 | [Nama Advisor] | [ID] | [Bidang keahlian] | [Email] |
 
 
@@ -62,13 +62,14 @@ Dengan menggabungkan **Artificial Intelligence (AI)** dan **Computer Vision**, p
 
 ![System Architecture](https://github.com/cikalfirdansyah/PELLIS-AI/blob/main/assets/system_architecture.png)
 
-_(Gambar ini akan menggambarkan alur sistem dari input gambar, prediksi model, hingga output ke user. Silakan upload gambar ke folder `assets/` dan ubah link di atas.)_
+#
+<!-- _(Gambar ini akan menggambarkan alur sistem dari input gambar, prediksi model, hingga output ke user. Silakan upload gambar ke folder `assets/` dan ubah link di atas.)_ -->
 
 ---
 
 ## 🔌 API Documentation
 
-_Endpoint atau dokumentasi API akan disediakan di sini jika tersedia (gunakan Postman/Swagger link jika ada)._
+_Endpoint atau dokumentasi API akan disediakan di sini._
 
 ---
 
@@ -92,8 +93,8 @@ Kami menggunakan dataset penyakit kulit dari Kaggle yang mencakup berbagai jenis
 
 ## 📱 APK & Deployment
 
-- 📥 APK Download Link: _[Coming Soon / Masukkan link Google Drive atau GitHub Releases]_
-- 🌐 Web Version (if any): _[Link aplikasi web jika tersedia]_
+- 📥 APK Download Link: _[Coming Soon]_
+- 🌐 Web Version (if any): _[Coming Soon]_
 
 ---
 
