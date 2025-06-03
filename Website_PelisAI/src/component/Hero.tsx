@@ -21,10 +21,6 @@ function Hero() {
           </div>
         </div>
       </div>
-
-      <div className="px-8 ">
-        <div className="text-3xl font-semibold flex justify-center my-10">Common Skin Conditions</div>
-      </div>
     </>
   );
 }
