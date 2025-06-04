@@ -1,15 +1,21 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Commonskin from "./component/Commonskin";
-import Footer from "./component/Footer";
+import Home from "./pages/Home";
 import Header from "./component/Header";
-import Hero from "./component/Hero";
+import Footer from "./component/Footer";
+import Detect from "./pages/Detect";
+import About from "./pages/About";
+
 function App() {
   return (
-    <div className="">
-      <Header />
-      <Hero />
-      <Commonskin/>
-      <Footer />
+    <div >
+      <Header/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Detect" element={<Detect />} />
+          <Route path="/About" element={<About />} />
+        </Routes>
+      <Footer/>
     </div>
   );
 }

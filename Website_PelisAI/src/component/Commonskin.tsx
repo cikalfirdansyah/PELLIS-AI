@@ -19,6 +19,14 @@ const data = [
       detail:
         'Psoriasis is a chronic autoimmune condition that causes the rapid buildup of skin cells, resulting in scaling on the skin’s surface. It is often itchy or painful.',
     },
+    {
+      title: 'Acne', 
+      description: 'Pimples, blackheads, or whiteheads on the skin.', 
+      img: '/images/Acne.jpg', 
+      type: 'Common',
+      detail:
+      'Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples, and usually appears on the face, forehead, chest, upper back and shoulders.',
+    },
   ];
 
   return (

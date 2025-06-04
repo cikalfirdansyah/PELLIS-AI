@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -11,10 +12,13 @@ function Hero() {
               Get instant analysis of skin conditions using our advanced AI technology. Upload a photo or use your camera for quick and accurate detection.
             </p>
             <div className="mt-10 ">
+              <Link to="/Detect">
               <button className="bg-[#2960EB] w-[300px]  text-white font-semibold p-4 rounded-2xl hover:bg-[#4a77eb]">
                 Get Started <i className="fa fa-arrow-right ml-2"></i>
               </button>
+              </Link>
             </div>
+             
           </div>
           <div className="flex items-center justify-center mt-6">
             <img src="\hero1.png" alt="" className="w-[450px]" />

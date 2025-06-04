@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   const navLinks = [
     { name: "Beranda", href: "/" },
@@ -13,11 +15,14 @@ const Header = () => {
 
         <div className="hidden md:flex px-4 cursor-pointer">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href}>
-              <div key={link.name} className="mx-6">
-                <p className="text-md font-semibold">{link.name}</p>
-              </div>
-            </a>
+              <NavLink
+              key={link.href}
+              to={link.href}
+              className={({ isActive }) =>
+                `mx-6 text-md font-semibold ${isActive ? 'text-blue-800 border-b-2 border-blue-800 pb-1' 
+                : 'text-gray-700 hover:text-[#6c4282]'}`}>
+              <p>{link.name}</p>
+            </NavLink>
           ))}
         </div>
       </div>

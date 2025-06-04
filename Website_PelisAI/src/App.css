@@ -11,6 +11,9 @@
 .hero {
   background: linear-gradient(to left, #ffffff, #bbc3ff);
 }
+.hero2 {
+  background: linear-gradient(to bottom, #ffff, #6982f1);
+}
 
 @keyframes logo-spin {
   from {
