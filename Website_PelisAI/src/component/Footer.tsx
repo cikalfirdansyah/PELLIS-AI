@@ -1,4 +1,5 @@
-
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin ,FaGithub} from "react-icons/fa";
 function Footer() {
   return (
     <div>
@@ -35,18 +36,18 @@ function Footer() {
             <p className="text-sm mb-2">
               📧{" "}
               <a href="mailto:contact@dermai.com" className="hover:underline">
-                contact@dermai.com
+                contact@PelisAi.com
               </a>
             </p>
             <div className="flex space-x-4 mt-2">
               <a href="#" aria-label="Twitter" className="hover:text-white">
-                🐦
+                <FaXTwitter />
               </a>
               <a href="#" aria-label="LinkedIn" className="hover:text-white">
-                💼
+                <FaLinkedin />
               </a>
               <a href="#" aria-label="GitHub" className="hover:text-white">
-                💻
+                <FaGithub />
               </a>
             </div>
           </div>

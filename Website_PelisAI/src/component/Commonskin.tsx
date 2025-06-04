@@ -30,9 +30,9 @@ const data = [
   ];
 
   return (
-    <section className="py-10 bg-gray-100">
+    <section className="py-20 bg-gray-100">
       <div>
-        <div className="text-3xl font-semibold flex justify-center mb-10">Common Skin Conditions</div>
+        <div className="text-3xl font-semibold flex justify-center mb-5">Common Skin Conditions</div>
       </div>
       <div className="flex flex-wrap justify-center gap-6">
         {data.map((item, idx) => (
