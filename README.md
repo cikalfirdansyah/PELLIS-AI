@@ -1,6 +1,6 @@
 # React App -  PELLIS-AI
 
-Ini adalah proyek React yang dikembangkan untuk [deskripsi singkat tujuan proyek, misalnya: "memprediksi kondisi kulit berdasarkan gambar yang diunggah pengguna"]. Aplikasi ini menggunakan React + TailwindCSS di sisi frontend, dan terhubung dengan backend Flask API untuk prediksi.
+Ini adalah proyek React yang dikembangkan untuk Memprediksi Penyakit Kulit Berdasarkan Photo . Aplikasi ini menggunakan React + TailwindCSS di sisi frontend, dan terhubung dengan backend Flask API untuk prediksi.
 
 ## 🔧 Fitur Utama
 
