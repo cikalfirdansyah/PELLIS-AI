@@ -10,10 +10,14 @@ Ini adalah proyek React yang dikembangkan untuk [deskripsi singkat tujuan proyek
 - Styling modern dengan TailwindCSS
 
 ## 🚀 Cara Menjalankan Proyek
-
+```bash
 ### 1. Clone Repository
 git clone 
 cd nama-proyek
-npm install
-npm run dev
 
+## Install Dependensi
+```bash
+npm install 
+## . Jalankan Aplikasi
+```bash
+npm run dev
