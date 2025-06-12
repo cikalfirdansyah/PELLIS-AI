@@ -1,5 +1,5 @@
 # PELLIS-AI
-![PELLIS-AI Banner](assets\banner.jpg)
+![PELLIS-AI Banner](assets/banner.jpg)
 
 ## Capstone Project – Laskar AI
 **Team ID: [LAI25-SM084]**
@@ -77,7 +77,6 @@ pip install flask flask-cors numpy tensorflow opencv-python
 pyhton app.py
 
 ngrok http 5000
-```
 
 ---
 
