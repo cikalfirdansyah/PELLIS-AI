@@ -13,11 +13,14 @@ import numpy as np
 import tensorflow as tf
 import cv2
 
+
+from tensorflow.keras.applications.resnet50 import preprocess_input
+
 app = Flask(__name__)
-CORS(app)  # agar bisa diakses dari frontend berbeda domain (localhost, React, Vercel, dsb)
+CORS(app)
 
 # === Load model
-model = tf.keras.models.load_model('bestmodel.keras')  # atau .keras
+model = tf.keras.models.load_model('bestmodel.keras')
 
 # === Nama kelas hasil klasifikasi
 CLASS_NAMES = ['Acne',
@@ -31,7 +34,7 @@ def preprocess_image(image_bytes):
     img_array = np.frombuffer(image_bytes, np.uint8)
     image = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
     image = cv2.resize(image, (150, 150))
-    image = image / 255.0
+    image = preprocess_input(image.astype('float32'))  # penting: tanpa dibagi 255
     image = np.expand_dims(image, axis=0)
     return image
 
@@ -58,3 +61,4 @@ def predict():
 # === Jalankan server
 if __name__ == '__main__':
     app.run(debug=True)
+
