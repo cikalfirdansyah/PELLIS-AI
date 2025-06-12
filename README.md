@@ -13,7 +13,7 @@ Ini adalah proyek React yang dikembangkan untuk Memprediksi Penyakit Kulit Berda
 ### 1. Clone Repository
 git clone https://github.com/cikalfirdansyah/PELLIS-AI.git
 
-```bash cd nama-proyek ```
+```bash cd Website_PelisAI ```
 
 ## 2. Install Dependensi
 ```bash npm install ```
