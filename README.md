@@ -1,5 +1,5 @@
 # PELLIS-AI
-![PELLIS-AI Banner]()
+![PELLIS-AI Banner](assets\banner.jpg)
 
 ## Capstone Project – Laskar AI
 **Team ID: [LAI25-SM084]**
@@ -67,8 +67,17 @@ Dengan menggabungkan **Artificial Intelligence (AI)** dan **Computer Vision**, p
 ---
 
 ## 🔌 API Documentation
+```
+conda create -n pellis_ai python=3.10
 
-_Endpoint atau dokumentasi API akan disediakan di sini.
+conda activate pellis_ai
+
+pip install flask flask-cors numpy tensorflow opencv-python
+
+pyhton app.py
+
+ngrok http 5000
+```
 
 ---
 
