@@ -87,14 +87,13 @@ Kami menggunakan dataset penyakit kulit dari Kaggle yang mencakup berbagai jenis
 ## 🎨 UI/UX Design
 
 - 🎨 Hi-Fi Design: _[[Figma](https://www.figma.com/design/4U1bFNDwepMgMrfQ33DJul/WEB-AI?node-id=0-1&p=f&t=tObl6fZH8hAk743l-0)]_
-- 🎮 Demo Prototype: _[Link ke figma prototipe atau demo aplikasi]_
+- 🎮 Demo Prototype: _[[Video](https://drive.google.com/file/d/1Ue99VXqJMFK_ogoVIWG3HucrDNdpseyR/view?usp=sharing)]_
 
 ---
 
-## 📱 APK & Deployment
+## 📱 WEB & Deployment
 
-- 📥 APK Download Link: _[Coming Soon]_
-- 🌐 Web Version (if any): _[Coming Soon]_
+- 🌐 Web Version : _[[Deployment](https://pelis-ai.vercel.app)]_
 
 ---
 
