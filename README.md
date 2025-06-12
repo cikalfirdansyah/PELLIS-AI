@@ -24,7 +24,6 @@ Pellis-AI adalah aplikasi yang memanfaatkan teknologi **Artificial Intelligence 
 | Name | Advisor ID | Expertise | Email |
 |------|------------|-----------|-------|
 | Iga Narendra Pramawijaya | LA25 - AD045 | Machine Learning | iga.narendra@gmail.com |
-| [Nama Advisor] | [ID] | [Bidang keahlian] | [Email] |
 
 
 
@@ -69,7 +68,7 @@ Dengan menggabungkan **Artificial Intelligence (AI)** dan **Computer Vision**, p
 
 ## 🔌 API Documentation
 
-_Endpoint atau dokumentasi API akan disediakan di sini._
+_Endpoint atau dokumentasi API akan disediakan di sini.
 
 ---
 
