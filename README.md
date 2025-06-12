@@ -15,8 +15,7 @@ git clone
 
 ```bash cd nama-proyek ```
 
-## Install Dependensi
+## 2. Install Dependensi
 ```bash npm install ```
-## . Jalankan Aplikasi
-
+## 3. Jalankan Aplikasi
 ```bash npm run dev ```
